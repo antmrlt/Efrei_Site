@@ -12,6 +12,13 @@ a {
     margin: 10px;
 }
 
+.hugo {
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
 .pierre {
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
