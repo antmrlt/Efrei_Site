@@ -53,70 +53,12 @@ a {
 }
 
 .pierre {
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f8f9fa;
-        margin: 0;
-        padding: 0;
-        color: #333;
-    }
-    
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    h1, h2, h3 {
-        color: #007bff;
-        text-align: center;
-    }
-    
-    p {
-        font-size: 1.2em;
-        line-height: 1.6;
-        text-align: center;
-    }
-    
-    
-    p:nth-child(odd) {
-        background-color: #e0e0e0;
-    }
-    
-    
-    a {
-        color: #007bff;
-        text-decoration: none;
-        border-bottom: 1px dashed #007bff;
-        transition: border-bottom 0.3s ease;
-    }
-    
-    a:hover {
-        border-bottom: 1px solid #007bff;
-    }
-    
-   
-    .title {
-        font-size: 2em;
-        font-weight: bold;
-        text-align: center;
-        color: #007bff;
-        margin-bottom: 20px;
-    }
-    
-   
-    .subtitle {
-        font-size: 1.5em;
-        font-weight: bold;
-        color: #007bff;
-        margin-bottom: 10px;
-    }
-    
-   
-    .section {
-        margin-bottom: 30px;
-    }
-    
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: red;
+}
 }
