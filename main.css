@@ -11,3 +11,10 @@ a {
     align-items: center;
     margin: 10px;
 }
+
+.hugo {
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
