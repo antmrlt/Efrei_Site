@@ -63,3 +63,8 @@ a {
     	padding: 0;
 	color: #444;
 }
+.lubin {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
