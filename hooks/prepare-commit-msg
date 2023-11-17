@@ -1,0 +1,9 @@
+#!/bin/bash
+
+commit_message=$(cat "$1")
+
+current_datetime=$(date "+%Y-%m-%d %H:%M:%S")
+
+new_commit_message="$commit_message $current_datetime"
+
+echo "$new_commit_message" > "$1"
