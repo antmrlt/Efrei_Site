@@ -1,133 +1,290 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: white;
-    display: flex;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+/* NAV BARRE */
+
+nav {
+  width: 100%;
+  background-color: rgba(255,255,255,0.7);
+  top: 0;
+  position: fixed;
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  z-index: 10;
+  transition: 2s background-color;
+}
+
+.nav_in {
+  margin: auto;
+  max-width: 980px;
+  height: 100%;
+  background-color: none;
+  padding: 0px 22px;
+}
+
+nav .nav_in p {
+  float: right;
+  margin-right: 20px;
+  font-size: 15px;
+  margin-top: 18px;
+}
+
+nav .nav_in .a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+}
+
+nav .a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+nav .nav_in h1 {
+  font-size: 21px;
+  margin: 0;
+  display: flex;
+  line-height: 1.14286;
+  display: block;
+  float: left;
+  margin: 14px -14px;
+  padding: 0;
+  font-weight: 500;
+  opacity: .91;
+}
+
+.svg_h1 {
+  width: 20;
+  height: 20;
+}
+
+.nav_icon {
+  width: auto;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* NAV MENU PHONE */
+
+.menu-anime {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 52px;
+  position: fixed;
+  z-index: 50;
+  transition: 1.5s height, 1s background-color;
+  overflow: hidden;
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  background-color: rgba(255,255,255,0.7);
+}
+
+.menu-anime p {
+  text-align: center;
+}
+
+.menu-anime a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* FIN NAV BARRE */
+
+@media screen and (max-width: 800px) {
+
+  /* NAV PHONE */
+
+  .a {
+    display: none;
+  }
+  nav .nav_in h1 {
+    font-size: 17px;
+    margin: 17px -14px;
+  }
+
+  /* NAV PHONE */
+
+  /* HEADER PHONE */
+
+  .header {
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    padding: 80px 20px;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .header h2 {
+    font-size: 25px;
+  }
+
+  /* FIN HEADER PHONE */
+
+  .mr-50 {
+    margin-right: 20px;
+  }
+  .w-500 {
+    width: 300px;
+  }
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* FOOTER */
+
+footer {
+  background-color: black;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 70px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.site-link {
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 10px;
-    border: 2px solid #333;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+/* News */
+
+.news {
+  color: white;
 }
 
-.site-link:hover {
-    background-color: #333;
-    color: #f4f4f4;
+.news h1 {
+  margin-top: 0;
 }
 
-/* Antoine */
+.news p {
+  opacity: 0.7;
+}
 
-.work {
+#news {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-color: #3f3f3e;
+  color: white;
+  max-width: 320px;
+  transition: border-color 1s;
+}
+
+#news:hover {
+  border-color: white;
+}
+
+#news:focus {
+  outline: none;
+}
+
+.news button {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #3f3f3e;
+  border-color: #3f3f3e;
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+  transition: color 1s, border-color 1s;
+  width: 100px; 
+}
+
+.news button:hover {
+  color: white;
+  border-color: white;
+}
+
+/* Contact */
+
+.contact p{
+  color: white;
+  opacity: 0.5;
+  margin-top: 0;
+}
+
+/* LINKS */
+
+.links-icon-container {
   display: flex;
   align-items: center;
-  flex-wrap: wrap-reverse;
 }
 
-.button {
-  padding: 20px 40px;
-  border-radius: 50px;
-  border: none;
-  cursor: pointer;
-  color: black;
+.links-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.links-icon:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.mg-l {
+  margin-left: 20px;
+}
+
+/* FIN LINKS ICONS */
+
+/* LINKS */
+
+.links-container {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.links h1 {
+  font-size: 18px;
+  opacity: 0.7;
+  margin-top: 0;
+}
+
+.links a {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
-  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0); /* Add a subtle shadow */
+  color: white;
+  opacity: 0.5;
+  transition: opacity 1s;
 }
 
-.button:hover {
-  background-color: #03dec0;
-  transform: translateY(-20px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+.links a:hover {
+  opacity: 1;
 }
 
-.text {
-  margin-right: 50px;
-  margin-bottom: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2vw;
+/* Fin FOOTER */
+
+/* FORMAT PHONE */
+
+@media screen and (min-width:  800px){
+  .menu-anime {
+    display: none;
+  }
 }
 
-.text h1 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  line-height: 1;
-}
+@media screen and (max-width: 800px) {
 
-.blue {
-  color: #03dec0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Lubin */
-
-.lubin {
-    background-color: rgb(43, 43, 43);
-    border-radius: 20px;
-    padding: 20px 20px;
-    margin: 20%;
-    color: white;
-}
-
-.lubin p {
-    margin-bottom: 30px;
-}
-
-.button-lubo {
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    color: black;
-    text-decoration: none;
-    font-size: 10;
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 1100px) {
-    .work {
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-  .text {
-    margin-right: 0;
-    font-size: 4vw;
-    margin-bottom: 2vw;
+  /*footer*/
+  footer {
+    padding: 20px;
   }
 
-  .resp {
-    margin: 20px;
+  .links-container {
+    justify-content: initial;
   }
-
-  .button {
-    margin-top: 20px;
-    font-size: 2vw;
-    padding: 2vw 4vw;
+  .news h1 {
+    margin-top: 50px;
+  }
+  .contact {
+    margin-bottom: 50px;
   }
 }
