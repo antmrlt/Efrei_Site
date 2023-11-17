@@ -120,8 +120,94 @@ nav .nav_in h1 {
 }
 .pierre{
 
+  /* Reset des styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
+/* Styles généraux */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styles de la section d'en-tête (header) */
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Styles des sections principales */
+
+.main-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.about,
+.skills,
+.experience,
+.education,
+.contact {
+  margin-bottom: 30px;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+/* Styles des items d'expérience et d'éducation */
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3,
+.education-item h3 {
+  margin-bottom: 5px;
+}
+
+.date {
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
 }
 /* FOOTER */
 
