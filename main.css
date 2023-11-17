@@ -115,99 +115,7 @@ nav .nav_in h1 {
     width: 300px;
   }
 }
-.pierre{
 
-<<<<<<< HEAD
-  /* Reset des styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Styles généraux */
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Styles de la section d'en-tête (header) */
-
-header {
-  background-color: #007bff;
-  color: #fff;
-  text-align: center;
-  padding: 50px 0;
-}
-
-.header-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-
-/* Styles des sections principales */
-
-.main-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 20px;
-}
-
-.about,
-.skills,
-.experience,
-.education,
-.contact {
-  margin-bottom: 30px;
-}
-
-.skills ul {
-  list-style: none;
-}
-
-/* Styles des items d'expérience et d'éducation */
-
-.experience-item,
-.education-item {
-  margin-bottom: 20px;
-}
-
-.experience-item h3,
-.education-item h3 {
-  margin-bottom: 5px;
-}
-
-.date {
-  font-style: italic;
-  margin-bottom: 8px;
-}
-
-}
-=======
 /* FIN NAV BARRE */
 
 /* INDEX */
@@ -246,7 +154,173 @@ header h1 {
 
 /* FIN INDEX */
 
->>>>>>> fb09ddd4017065d37b795562832aeb33e64bd3e3
+/* Antoine */
+
+.antoine .head {
+  padding: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.antoine .head .smallhead {
+  background-image: url("../Efrei_Site/sites/antoine/work.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  filter: grayscale(60%);
+  
+  max-width: 980px;
+  height: 100%;
+
+  padding: 15% 25%;
+
+  transition: filter 0.5s;
+}
+
+.antoine .head .smallhead:hover {
+  filter: grayscale(40%);
+}
+
+.antoine .head .smallhead h1 {
+  color: white;
+  font-size: 4vw;
+}
+
+.antoine .presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: 0% 15%;
+
+  gap: 100px;
+}
+
+.antoine .presentation .card-auto {
+  background-image: url("../Efrei_Site/sites/antoine/p1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  filter: grayscale(80%);
+
+  transition: filter 0.5s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  height: 470px;
+  width: 300px;
+}
+
+.antoine .presentation .card-auto:hover {
+  filter: grayscale(40%);
+}
+
+.antoine .presentation .card-auto p {
+  font-size: 20px;
+}
+
+.antoine .presentation .card-ski {
+  background-image: url("../Efrei_Site/sites/antoine/p2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  filter: grayscale(80%);
+
+  transition: filter 0.5s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 470px;
+  width: 300px;
+}
+
+.antoine .presentation .card-ski p {
+  font-size: 20px;
+}
+
+.antoine .presentation .card-ski:hover {
+  filter: grayscale(40%);
+}
+
+.antoine .presentation .card-info {
+  background-image: url("../Efrei_Site/sites/antoine/p3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  filter: grayscale(80%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  height: 470px;
+  width: 300px;
+
+  transition: filter 0.5s;
+}
+
+.antoine .presentation .card-info p {
+  font-size: 20px;
+}
+
+.antoine .presentation .card-info:hover {
+  filter: grayscale(40%);
+}
+
+.antoine .blender-container {
+  background-color: lightgray;
+  margin: 100px 15%;
+  padding: 50px;
+}
+
+.antoine .blender-container .blender-head-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 50px;
+}
+
+.antoine .blender-container .blender-head-container img {
+  max-width: 600px;
+}
+
+.antoine .blender-container .blender-head-container h1 {
+  font-size: 3vw;
+}
+
+.antoine .blender-container .blender-bottom-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.antoine .blender-container .blender-bottom-container img {
+  max-width: 600px;
+}
+
+.antoine .blender-container .blender-bottom-container p {
+  max-width: 400px;
+  font-size: 21px;
+}
+
+/* Fin Antoine */
+
 /* FOOTER */
 
 footer {
