@@ -94,9 +94,6 @@ nav .nav_in h1 {
   color: black;
 }
 
-
-/* FIN NAV BARRE */
-
 @media screen and (max-width: 800px) {
 
   /* NAV PHONE */
@@ -120,6 +117,7 @@ nav .nav_in h1 {
 }
 .pierre{
 
+<<<<<<< HEAD
   /* Reset des styles */
 * {
   margin: 0;
@@ -209,6 +207,46 @@ header h1 {
 }
 
 }
+=======
+/* FIN NAV BARRE */
+
+/* INDEX */
+
+.mid {
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid .index h1 {
+  font-size: 3vw;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mid .button-container .button {
+  background-color: aliceblue;
+  padding: 20px 30px;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+.mid .button-container .button:hover {
+  background-color: #c5d7fd;
+}
+
+/* FIN INDEX */
+
+>>>>>>> fb09ddd4017065d37b795562832aeb33e64bd3e3
 /* FOOTER */
 
 footer {
