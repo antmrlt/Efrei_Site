@@ -2,7 +2,7 @@
 
 commit_message=$(cat "$1")
 
-team_info="Nous sommes l'équipe 420, composée de Antoine Mourlot, Lubin, Théodore, Hugo Charles et pierre"
+team_info=": nous sommes l'équipe 420, composée de Antoine Mourlot, Lubin, Théodore, Hugo Charles et Pierre le "
 new_commit_message="$commit_message $team_info"
 
 current_datetime=$(date "+ %Y-%m-%d %H:%M:%S")
