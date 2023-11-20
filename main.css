@@ -321,6 +321,16 @@ nav .nav_in h1 {
 
 /* Fin Antoine */
 
+/*Début Lubin */
+
+.lubin .lubin-container {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+/* Fin Lubin */
+
 /* FOOTER */
 
 footer {
