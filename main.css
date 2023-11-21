@@ -321,6 +321,18 @@ nav .nav_in h1 {
 
 /* Fin Antoine */
 
+/* Theodore */
+
+.theodore .theodore-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 100px;
+}
+
+/* Fin Theodore */
+
 /*Début Lubin */
 
 .lubin .lubin-container {

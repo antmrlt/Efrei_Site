@@ -1,14 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Théodore</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-<h1>theodore mignot</h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Projet</title>
+    <link href="../main.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body class="theodore">
 
-</body>
+
+    <nav id="navnav">
+      <div class="nav_in">
+        <h1><a href="../../index.html" style="color: black; text-decoration: none;">Projet</a></h1>
+
+        <p> <a class="a" href="antoine.html"> Antoine </a> </p>
+        <p> <a class="a" href="../pierre.html"> Pierre </a> </p>
+        <p> <a class="a" href="../theodore.html"> Theodore </a> </p>
+        <p> <a class="a" href="../hugo.html"> Hugo </a> </p>
+        <p> <a class="a" href="../lubin.html"> Lubin </a> </p>
+      </div>
+    </nav>
+
+    <div class="menu-anime" style="height: 0px;" id="nav">
+      <p> <a href="antoine.html"> Antoine </a> </p>
+      <p> <a href="../pierre.html"> Pierre </a> </p>
+      <p> <a href="../theodore.html"> Theodore </a> </p>
+      <p> <a href="../hugo.html"> Hugo </a> </p>
+      <p> <a href="../lubin.html"> Lubin </a> </p>
+    </div> 
+
+    <div class="theodore-container">
+        <div class="title">
+            <h1>Wiki de Lubo, le Troll Géant</h1>
+        </div>
+        <div class="description-container">
+            <p>Lubo est un troll géant aux traits imposants et à la peau rugueuse, habitant les profondeurs mystérieuses des montagnes escarpées. Sa présence imposante et son regard perçant en font une créature redoutable, mais derrière cette apparence intimidante se cache un cœur généreux.</p>
+
+            <p>Malgré sa réputation de créature farouche, Lubo est connu pour son sens de l'humour unique. Il aime jouer des tours aux voyageurs imprudents qui s'aventurent dans son territoire, mais sans jamais leur causer de mal réel. Son rire grave résonne à travers les vallées, créant une atmosphère à la fois effrayante et amusante.</p>
+
+            <p>Lubo a un faible pour les énigmes et les jeux d'esprit. Il apprécie les défis intellectuels et trouve du plaisir à tester la sagacité de ceux qui croisent son chemin. Certains racontent même que Lubo a un trésor caché quelque part dans son antre, accessible seulement à ceux qui peuvent résoudre ses énigmes tordues.</p>
+
+            <p>Malgré sa nature taquine, Lubo est protecteur envers la faune et la flore de son territoire. Il considère les montagnes comme sa maison et fait tout ce qui est en son pouvoir pour préserver l'équilibre naturel de cet environnement unique.</p>
+
+            <p>Rencontrer Lubo peut être une expérience mémorable mêlant frissons et éclats de rire. Certains aventuriers chanceux ont même gagné son respect en relevant ses défis, établissant ainsi une relation étrange mais amicale avec ce troll énigmatique.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="links-container">
+            <div class="links">
+            <h1>Nos pages</h1>
+            <p><a href="sites/antoine/antoine.html">Antoine</a></p>
+            <p><a href="sites/pierre.html">Pierre</a></p>
+            <p><a href="sites/lubin.html">Lubin</a></p>
+            <p><a href="sites/hugo.html">Hugo</a></p>
+            <p><a href="sites/theodore.html">Théodore</a></p>
+            </div>
+            <div class="links">
+            <h1>Nos projets</h1>
+            <p><a href="">Le commencement</a></p>
+            <p><a href="">Le developpement</a></p>
+            <p><a href="">Nous decouvrir</a></p>
+            </div>
+            <div class="links">
+            <h1>Contact</h1>
+            <p><a href="">Nous envoyer un message</a></p>
+            <p><a href="">06 02 67 64 82</a></p>
+            <p><a href="mailto:test.email@gmail.com">test.email@gmail.com</a></p>
+            <p><a href="" target="blank">Efrei Bordeaux</a></p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>Contactez nous</p>
+            <div class="links-icon-container">
+                <a href=""><div class="links-icon">
+                <img src="images/facebook-white.png" width="20" height="20">
+                </div></a>
+                <a href=""><div class="links-icon mg-l">
+                <img src="images/insta-white.png" width="20" height="20">
+                </div></a>
+                <a href=""><div class="links-icon mg-l">
+                <img src="images/linkdin-white.png" width="20" height="20">
+                </div></a>
+            </div>
+            </div>
+        </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        function changeStyle(){
+        var element = document.getElementById("nav");
+        var nav = document.getElementById("navnav");
+        if (element.style.height == '150px') {
+            element.style.height = "0px";
+            element.style.backgroundColor = "rgba(255,255,255,0.7)"
+            nav.style.backgroundColor = "rgba(255,255,255,0.7)"
+        }
+        else if (element.style.height == '0px') {
+            element.style.height = "150px";
+            element.style.backgroundColor = "rgba(255,255,255,1)"
+            nav.style.backgroundColor = "rgba(255,255,255,1)"
+        }
+        }
+
+    </script>
+
+    </body>
 </html>
