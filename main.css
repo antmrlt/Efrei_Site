@@ -328,7 +328,24 @@ nav .nav_in h1 {
   flex-direction: column;
   justify-content: center;
 
-  padding: 100px;
+  padding: 100px 100px 0px 100px;
+}
+
+.theodore .open-source {
+  margin: 20px 100px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.theodore hr {
+  margin: 0px 100px;
+  background-color: #d4d4d4;
+  border: none;
+  height: 1px;
 }
 
 /* Fin Theodore */
