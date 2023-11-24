@@ -1,6 +1,5 @@
 # Efrei_Site
 
-## GYAT
 
  **Nom des membres du groupe** 
 ```
@@ -10,9 +9,15 @@ Hugo Charles
 Théodore Mignot
 Lubin Lauwers 
 ```
-!["Bozo"](images/ted.png "Ted").
+**Théodore**
+!["Bozo"](images/ted.png "Ted"). 
+**Lubin**
 !["Bozoo"](images/lubo.png "Lubo").
+**Antoine**
 !["Bozooo"](images/antoine.png "Antoine").
+**Hugo**
 !["Bozoooo"](images/hugo.png "Hugo").
+**Pierre**
 !["Bozooooo"](images/pierre.png "Pierre").
+**Index**
 !["Bozoooooo"](images/index.png "Index").
