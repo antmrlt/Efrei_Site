@@ -350,6 +350,14 @@ nav .nav_in h1 {
 
 /* Fin Theodore */
 
+/* Hugo */
+
+.hugo .hugo-container {
+  padding: 100px;
+}
+
+/* Fin Hugo */
+
 /*Début Lubin */
 
 .lubin .lubin-container {
