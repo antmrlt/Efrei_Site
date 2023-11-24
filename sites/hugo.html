@@ -3,39 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../main.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>WELCOME To Ratatouille City</h1>
-    <p class="hugo">Les rêves des amoureux sont comme le bon vin
-        Ils donnent de la joie ou bien du chagrin
-        Affaibli par la faim je suis malheureux
-        Volant en chemin tout ce que je peux
-        Car rien n'est gratuit dans la vie
-        
-        L'espoir est un plat bien trop vite consommé
-        À sauter les repas je suis habitué
-        Un voleur, solitaire, est triste à nourrir
-        À un jeu si amer, je peux réussir
-        Car rien n'est gratuit dans la vie
-        
-        Jamais on ne me dira que la course aux étoiles, ça n'est pas pour moi
-        Laissez-moi vous émerveiller et prendre mon envol.
+    <nav id="navnav">
+        <div class="nav_in">
+          <h1><a href="index.html" style="color: black; text-decoration: none;">Projet</a></h1>
+  
+          <p> <a class="a" href="sites/antoine/antoine.html"> Antoine </a> </p>
+          <p> <a class="a" href="sites/pierre.html"> Pierre </a> </p>
+          <p> <a class="a" href="sites/theodore.html"> Theodore </a> </p>
+          <p> <a class="a" href="sites/hugo.html"> Hugo </a> </p>
+          <p> <a class="a" href="sites/lubo/lubin.html"> Lubin </a> </p>
+        </div>
+      </nav>
+  
+      <div class="menu-anime" style="height: 0px;" id="nav">
+        <p> <a href="sites/antoine/antoine.html"> Antoine </a> </p>
+        <p> <a href="sites/pierre.html"> Pierre </a> </p>
+        <p> <a href="sites/theodore.html"> Theodore </a> </p>
+        <p> <a href="sites/hugo.html"> Hugo </a> </p>
+        <p> <a href="sites/lubo/lubin.html"> Lubin </a> </p>
+      </div> 
 
-        Nous allons enfin nous régaler
+      <!-- Hugo -->
 
-        La fête va enfin commencer
+      <!-- Fin Hugo -->
+  
+      <footer>
+        <div class="links-container">
+            <div class="links">
+            <h1>Nos pages</h1>
+            <p><a href="sites/antoine/antoine.html">Antoine</a></p>
+            <p><a href="sites/pierre.html">Pierre</a></p>
+            <p><a href="sites/lubin.html">Lubin</a></p>
+            <p><a href="sites/hugo.html">Hugo</a></p>
+            <p><a href="sites/theodore.html">Théodore</a></p>
+            </div>
+            <div class="links">
+            <h1>Nos projets</h1>
+            <p><a href="">Le commencement</a></p>
+            <p><a href="">Le developpement</a></p>
+            <p><a href="">Nous decouvrir</a></p>
+            </div>
+            <div class="links">
+            <h1>Contact</h1>
+            <p><a href="">Nous envoyer un message</a></p>
+            <p><a href="">06 02 67 64 82</a></p>
+            <p><a href="mailto:test.email@gmail.com">test.email@gmail.com</a></p>
+            <p><a href="" target="blank">Efrei Bordeaux</a></p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>Contactez nous</p>
+            <div class="links-icon-container">
+                <a href=""><div class="links-icon">
+                <img src="../images/facebook-white.png" width="20" height="20">
+                </div></a>
+                <a href=""><div class="links-icon mg-l">
+                <img src="../images/insta-white.png" width="20" height="20">
+                </div></a>
+                <a href=""><div class="links-icon mg-l">
+                <img src="../images/linkdin-white.png" width="20" height="20">
+                </div></a>
+            </div>
+            </div>
+        </footer>
 
-        Et sortez les bouteilles, finis les ennuis
-        Je dresse la table, demain nouvelle vie
-        Je suis heureux à l'idée de ce nouveau destin
-        Une vie à me cacher, et puis libre enfin
-        Le festin est sur mon chemin
-        Une vie à me cacher et puis libre enfin
-        Le festin est sur mon chemin
-    
-    </p>
-    
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        function changeStyle(){
+        var element = document.getElementById("nav");
+        var nav = document.getElementById("navnav");
+        if (element.style.height == '150px') {
+            element.style.height = "0px";
+            element.style.backgroundColor = "rgba(255,255,255,0.7)"
+            nav.style.backgroundColor = "rgba(255,255,255,0.7)"
+        }
+        else if (element.style.height == '0px') {
+            element.style.height = "150px";
+            element.style.backgroundColor = "rgba(255,255,255,1)"
+            nav.style.backgroundColor = "rgba(255,255,255,1)"
+        }
+        }
+
+    </script>
+
+    </body>
 </html>
