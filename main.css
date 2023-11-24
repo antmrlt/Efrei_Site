@@ -361,8 +361,8 @@ nav .nav_in h1 {
 }
 .pierre .pierre-container .presentation {
   display: flex;
-  justify-content: space-between; /* Répartit l'espace entre les éléments */
-  align-items: center; /* Centre les éléments verticalement */
+  justify-content: space-between; 
+  align-items: center; 
 }
 .pierre .pierre-container .presentation .peche{
 
@@ -381,13 +381,12 @@ nav .nav_in h1 {
   width: 512px;
   
 }
-.pierre .pierre-container .page-title {
-
-}
-
-.pierre .pierre-container .contact {
-
-}
+.pierre .pierre-container .image-yuzu
+background-image: url("../Efrei_Site/sites/pierre/muscu.png ");
+  background-position: center;
+  display: flex;
+  height: 445px;
+  width: 512px;
 
 /*fin nelok  */
 
