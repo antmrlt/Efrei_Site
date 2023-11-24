@@ -366,7 +366,7 @@ nav .nav_in h1 {
 }
 .pierre .pierre-container .presentation .peche{
 
-  background-image: url("../Efrei_Site/sites/pierre/peche.png");
+  background-image: url("sites/pierre/peche.png");
 
   background-position: center;
   display: flex;
@@ -374,21 +374,13 @@ nav .nav_in h1 {
   width: 400px;
 }
 .pierre .pierre-container .presentation .musculation{
-  background-image: url("../Efrei_Site/sites/pierre/muscu.png ");
+  background-image: url("sites/pierre/muscu.png ");
   background-position: center;
   display: flex;
   height: 512px;
   width: 512px;
   
 }
-.pierre .pierre-container .page-title {
-
-}
-
-.pierre .pierre-container .contact {
-
-}
-
 /*fin nelok  */
 
 /*Début Lubin */
