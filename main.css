@@ -350,6 +350,47 @@ nav .nav_in h1 {
 
 /* Fin Theodore */
 
+/* nelok */
+
+.pierre .pierre-container {
+  padding: 100px;
+}
+
+.pierre .header-content {
+ position: relative;
+}
+.pierre .pierre-container .presentation {
+  display: flex;
+  justify-content: space-between; /* Répartit l'espace entre les éléments */
+  align-items: center; /* Centre les éléments verticalement */
+}
+.pierre .pierre-container .presentation .peche{
+
+  background-image: url("../Efrei_Site/sites/pierre/peche.png");
+
+  background-position: center;
+  display: flex;
+  height: 371px;
+  width: 400px;
+}
+.pierre .pierre-container .presentation .musculation{
+  background-image: url("../Efrei_Site/sites/pierre/muscu.png ");
+  background-position: center;
+  display: flex;
+  height: 512px;
+  width: 512px;
+  
+}
+.pierre .pierre-container .page-title {
+
+}
+
+.pierre .pierre-container .contact {
+
+}
+
+/*fin nelok  */
+
 /*Début Lubin */
 
 .lubin .lubin-container {
