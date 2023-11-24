@@ -10,3 +10,4 @@ Hugo Charles
 Théodore Mignot
 Lubin Lauwers 
 ```
+![](/Efrei_Site/images/ted.png "Ted").
