@@ -10,14 +10,14 @@ Théodore Mignot
 Lubin Lauwers 
 ```
 **Théodore**
-!["Bozo"](images/ted.png "Ted"). 
+!["Bozo"](images/ted.png "Ted")
 **Lubin**
-!["Bozoo"](images/lubo.png "Lubo").
+!["Bozoo"](images/lubo.png "Lubo")
 **Antoine**
-!["Bozooo"](images/antoine.png "Antoine").
+!["Bozooo"](images/antoine.png "Antoine")
 **Hugo**
-!["Bozoooo"](images/hugo.png "Hugo").
+!["Bozoooo"](images/hugo.png "Hugo")
 **Pierre**
-!["Bozooooo"](images/pierre.png "Pierre").
+!["Bozooooo"](images/pierre.png "Pierre")
 **Index**
-!["Bozoooooo"](images/index.png "Index").
+!["Bozoooooo"](images/index.png "Index")
