@@ -382,6 +382,13 @@ nav .nav_in h1 {
   
 }
 
+.pierre .pierre-container .image-yuzu{
+background-image: url("sites/pierre/muscu.png ");
+  background-position: center;
+  display: flex;
+  height: 445px;
+  width: 512px;
+}
 /*fin nelok  */
 
 /*Début Lubin */
