@@ -2,7 +2,7 @@
 
 ## GYAT
 
-*** Nom des membres du groupe ***
+ **Nom des membres du groupe** 
 ```
 Antoine Mourlot
 Pierre Thill
